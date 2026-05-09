@@ -12,4 +12,4 @@
 
 5- **Scientific Notation**: An EXP or EE button for entering numbers like $6.022 \times 10^{23}$.
 
-6- **Parentheses**: Essential for handling the Order of Operations (PEMDAS/BODMA
+6- **Parentheses**: Essential for handling the Order of Operations (PEMDAS/BODMAS)

@@ -12,8 +12,8 @@
     border: 2px solid;
     border-color: gray;
     border-radius: 12px;
-    height: 440px;
-    width: 640px;
+    height: 580px;
+    width: 620px;
 }
 #result_area{
     border: 4px solid;
@@ -26,6 +26,7 @@
 #buttons_area{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     width: 480px;
     margin: 12px;
@@ -35,12 +36,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 24px;
-    width: 48px;
+    height: 32px;
+    width: 68px;
     border: 2px solid;
     border-radius: 12px;
     border-color: black;
     background-color: aliceblue;
+}
+#operation_buttons_area{
+    display: flex;
+    margin: 12px;
+
+}
+#trigonometry_buttons_area{
+    display: flex;
+    margin: 12px;
+}
+#other_buttons{
+    display: flex;
+}
+#logarithms_buttons_area{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#powers_roots_buttons_area{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#constants_buttons_area{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#number_buttons_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px;
+}
+#number_buttons_area_one{
+    display: flex;
+    justify-content: center;
+}
+#number_buttons_area_two{
+    display: flex;
+    justify-content: center;
+}
+#number_buttons_area_three{
+    display: flex;
+    justify-content: center;
 }
 #calculate_button{
     display: flex;
